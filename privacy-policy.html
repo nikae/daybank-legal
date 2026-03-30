@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -120,12 +121,23 @@
   <p>All app data — your budget settings, spend entries, and streak history — is stored using Apple's SwiftData framework on your local device. This data is:</p>
   <ul>
     <li>Protected by your device's built-in security and encryption</li>
-    <li>Included in your iCloud or iTunes backup if you have device backups enabled (controlled by you in iOS Settings)</li>
+    <li>Synced to iCloud via Apple's CloudKit framework if you are signed into iCloud on your device (see Section 5 below)</li>
     <li>Not accessible to us or any third party</li>
   </ul>
-  <p>To delete all your DayBank data, simply delete the app from your device. All locally stored data will be permanently removed.</p>
+  <p>To delete all your DayBank data, delete the app from your device and, if using iCloud sync, delete the DayBank data from your iCloud account via iOS Settings → [Your Name] → iCloud → Manage Storage.</p>
 
-  <h2>5. Third-Party Services</h2>
+  <h2>5. iCloud Sync</h2>
+  <p>DayBank uses Apple's CloudKit framework to sync your budget data across your devices via iCloud. This means your spend entries, settings, and streak history are automatically kept in sync between any iPhone or iPad where you are signed into the same Apple ID with DayBank installed.</p>
+  <p>Specifically:</p>
+  <ul>
+    <li>Your data is stored in your personal iCloud account — it is never stored on our servers</li>
+    <li>Apple encrypts iCloud data in transit and at rest in accordance with <a href="https://www.apple.com/privacy" style="color:var(--amber)">Apple's Privacy Policy</a></li>
+    <li>We have no ability to access, view, or retrieve your iCloud data at any time</li>
+    <li>iCloud sync is controlled by you — you can disable it at any time in iOS Settings → [Your Name] → iCloud → Apps Using iCloud → DayBank</li>
+  </ul>
+  <p>If you disable iCloud sync, your data will remain stored locally on your device only and will no longer sync across devices.</p>
+
+  <h2>6. Third-Party Services</h2>
   <p>DayBank uses no third-party analytics SDKs, advertising networks, crash reporting services, or tracking frameworks. The app has no external dependencies beyond Apple's native iOS frameworks.</p>
   <p>The only third-party interaction is Apple's App Store and StoreKit for in-app purchases, which is governed by <a href="https://www.apple.com/privacy" style="color:var(--amber)">Apple's Privacy Policy</a>.</p>
 
@@ -149,9 +161,9 @@
   <h2>9. Contact</h2>
   <p>If you have questions about this Privacy Policy or DayBank's data practices, please contact us:</p>
   <p>
-    <strong>Email:</strong> <span class="highlight">[your@email.com]</span><br>
+    <strong>Email:</strong> <span class="highlight">[<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c6bfa9b3b486a3aba7afaae8a5a9ab">daybank@icloud.com</a>]</span><br>
     <strong>App:</strong> DayBank — Daily Budget<br>
-    <strong>Developer:</strong> <span class="highlight">[Your Name / Company Name]</span>
+    <strong>Developer:</strong> <span class="highlight">[DayBank]</span>
   </p>
 
 </div>
@@ -160,9 +172,3 @@
   <div class="container">
     <div class="logo">🔥 DayBank</div>
     <div><em>Spend less. Carry more.</em></div>
-    <div style="margin-top:8px">Privacy Policy · Version 1.0 · March 2026</div>
-  </div>
-</footer>
-
-</body>
-</html>
