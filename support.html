@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DayBank — Support</title>
+<style>
+  :root {
+    --amber: #F5A623;
+    --bg: #FAFAF8;
+    --text: #1C1A17;
+    --muted: #666560;
+    --border: #E8E6E0;
+    --surface: #F2F0EB;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.75;
+  }
+  header {
+    border-bottom: 3px solid var(--amber);
+    padding: 48px 0 32px;
+    margin-bottom: 48px;
+  }
+  .container { max-width: 640px; margin: 0 auto; padding: 0 24px; }
+  .brand { font-size: 13px; font-weight: 700; color: var(--amber); letter-spacing: 1px; text-transform: uppercase; margin-bottom: 12px; }
+  h1 { font-size: 36px; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 8px; }
+  .meta { color: var(--muted); font-size: 14px; }
+
+.contact-card {
+background: #1C1A17;
+border-radius: 16px;
+padding: 36px 40px;
+margin-bottom: 32px;
+text-align: center;
+}
+.contact-card .icon { font-size: 36px; margin-bottom: 16px; display: block; }
+.contact-card h2 { font-size: 22px; font-weight: 800; color: #FAF7F2; margin-bottom: 8px; letter-spacing: -0.3px; }
+.contact-card p { color: rgba(250,247,242,0.5); font-size: 14px; margin-bottom: 20px; line-height: 1.6; }
+.contact-card a {
+display: inline-block;
+background: var(–amber);
+color: #1C1A17;
+font-weight: 700;
+font-size: 14px;
+padding: 12px 28px;
+border-radius: 100px;
+text-decoration: none;
+letter-spacing: 0.3px;
+}
+
+h2 { font-size: 20px; font-weight: 700; margin: 40px 0 12px; padding-bottom: 8px; border-bottom: 1px solid var(–border); }
+p { margin-bottom: 14px; color: #2A2724; }
+
+.faq-item {
+background: var(–surface);
+border-radius: 12px;
+padding: 20px 24px;
+margin-bottom: 10px;
+}
+.faq-item h3 { font-size: 15px; font-weight: 700; margin-bottom: 6px; }
+.faq-item p { font-size: 14px; color: var(–muted); margin: 0; line-height: 1.6; }
+
+.highlight { color: var(–amber); font-weight: 600; }
+
+footer {
+border-top: 1px solid var(–border);
+margin-top: 64px;
+padding: 32px 0;
+text-align: center;
+color: var(–muted);
+font-size: 13px;
+}
+footer .logo { color: var(–amber); font-weight: 700; margin-bottom: 4px; }
+footer a { color: var(–amber); text-decoration: none; }
+
+@media (max-width: 480px) {
+h1 { font-size: 28px; }
+.container { padding: 0 16px; }
+.contact-card { padding: 28px 24px; }
+}
+</style>
+
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand">🔥 DayBank</div>
+    <h1>Support</h1>
+    <p class="meta">We're here to help. Usually respond within 24 hours.</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <div class="contact-card">
+    <span class="icon">✉️</span>
+    <h2>Get in touch</h2>
+    <p>Have a question, found a bug, or want to share feedback? Send us an email and we'll get back to you.</p>
+    <a href="mailto:[daybank@icloud.com]">[your@email.com]</a>
+  </div>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>How does the rollover work?</h3>
+    <p>Whatever you don't spend today carries over to tomorrow as a bonus. Overspend and tomorrow's budget gets a little less. Your balance always reflects exactly what you have to work with.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What is the streak?</h3>
+    <p>Your streak counts consecutive days where you stayed under budget. It resets to zero if you overspend. The longer your streak, the stronger the habit you're building.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What's the difference between Daily and Monthly mode?</h3>
+    <p>Daily Fixed gives you the same amount every day. Monthly Adaptive takes your monthly budget and recalculates your daily allowance every day based on what you've already spent — so it automatically adjusts for big expenses.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I add an expense I forgot to log?</h3>
+    <p>Yes — you can add expenses up to 3 days back. Tap + Add Spend, then change the date. Your balance updates automatically.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Does DayBank connect to my bank?</h3>
+    <p>No — and that's intentional. DayBank is manual entry by design. Logging a spend makes you think about it. That pause is where saving actually happens.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is my data private?</h3>
+    <p>Yes. All your data is stored locally on your device and synced to your personal iCloud account via Apple's CloudKit. We have no servers and no access to your data. See our <a href="privacy-policy.html" style="color:var(--amber)">Privacy Policy</a> for full details.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I cancel DayBank Pro?</h3>
+    <p>Open the Settings app on your iPhone → tap your name → Subscriptions → DayBank Pro → Cancel Subscription. You'll retain Pro access until the end of the current billing period.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What is the Streak Recovery consumable?</h3>
+    <p>If you break your streak, you can restore it with a one-time $0.99 purchase. Pro subscribers receive one free recovery token per month. This is entirely optional — your budget and rollover mechanic work the same regardless.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I delete my data?</h3>
+    <p>Delete DayBank from your device to remove all local data. To also remove iCloud data, go to iOS Settings → [Your Name] → iCloud → Manage Storage → DayBank → Delete Data.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I restore my Pro purchase on a new device?</h3>
+    <p>Open DayBank → Settings → Restore Purchases. Make sure you're signed into the same Apple ID used for the original purchase.</p>
+  </div>
+
+</div>
+
+<footer>
+  <div class="container">
+    <div class="logo">🔥 DayBank</div>
+    <div><em>Spend less. Carry more.</em></div>
+    <div style="margin-top:8px">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      &nbsp;·&nbsp;
+      <span style="color:var(--muted)">© 2026 Nikoloz Elashvili</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
