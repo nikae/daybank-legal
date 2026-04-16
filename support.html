@@ -107,7 +107,7 @@ h1 { font-size: 28px; }
     <span class="icon">✉️</span>
     <h2>Get in touch</h2>
     <p>Have a question, found a bug, or want to share feedback? Send us an email and we'll get back to you.</p>
-    <a href="/cdn-cgi/l/email-protection#6f3416001a1d2f0a020e0603410c000232"><span class="__cf_email__" data-cfemail="2a53455f586a4f474b434604494547">daybank@icloud.com</span></a>
+    <a href="mailto:daybank@icloud.com">daybank@icloud.com</a>
   </div>
 
   <h2>Frequently Asked Questions</h2>
@@ -124,12 +124,32 @@ h1 { font-size: 28px; }
 
   <div class="faq-item">
     <h3>What's the difference between Daily and Monthly mode?</h3>
-    <p>Daily Fixed gives you the same amount every day. Monthly Adaptive takes your monthly budget and recalculates your daily allowance every day based on what you've already spent — so it automatically adjusts for big expenses.</p>
+    <p>Daily mode gives you the same fixed amount every day. Monthly mode takes your monthly budget, divides it equally across all days of the month, and gives you a consistent daily allowance. Rollover still applies in both modes — unspent days carry forward and overspent days are automatically subtracted from tomorrow.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>If I switch from Daily to Monthly mid-month, what happens to my previous spending?</h3>
+    <p>Your rollover handles it automatically. Any overspending or savings from your daily mode days carry forward as a positive or negative rollover. When you switch, the monthly budget is divided equally across the full month, and your accumulated rollover is added on top. The math takes care of itself — you don't need to do anything.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How much history can I see?</h3>
+    <p>Free users can view the last 7 days of history. <span class="highlight">DayBank Pro</span> unlocks your full history from day one.</p>
   </div>
 
   <div class="faq-item">
     <h3>Can I add an expense I forgot to log?</h3>
     <p>Yes — you can add expenses up to 3 days back. Tap + Add Spend, then change the date. Your balance updates automatically.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What are Planned Expenses?</h3>
+    <p>Planned Expenses (<span class="highlight">Pro</span>) let you register fixed monthly costs like rent, subscriptions, or loan repayments. DayBank subtracts them from your monthly budget first, then divides what's left across the month — so your daily budget already accounts for your fixed costs. You can choose to apply them to remaining days or starting next month.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I add a home screen widget?</h3>
+    <p>Long press your home screen → tap + in the top corner → search DayBank → choose your preferred size (small, medium, or large). The widget shows your current balance, streak, and recent expenses at a glance. A lock screen complication is also available.</p>
   </div>
 
   <div class="faq-item">
@@ -139,7 +159,12 @@ h1 { font-size: 28px; }
 
   <div class="faq-item">
     <h3>Is my data private?</h3>
-    <p>Yes. All your data is stored locally on your device and synced to your personal iCloud account via Apple's CloudKit. We have no servers and no access to your data. See our <a href="privacy-policy.html" style="color:var(--amber)">Privacy Policy</a> for full details.</p>
+    <p>Yes. All your data is stored on your device and synced privately to your personal iCloud account via Apple's CloudKit. We have no servers and no access to your data whatsoever. See our <a href="privacy-policy.html" style="color:var(--amber)">Privacy Policy</a> for full details.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What happens if I don't have iCloud enabled?</h3>
+    <p>DayBank works entirely offline and stores all data locally on your device. iCloud sync is optional — if it's unavailable, the app falls back to local storage automatically with no loss of functionality.</p>
   </div>
 
   <div class="faq-item">
@@ -149,12 +174,17 @@ h1 { font-size: 28px; }
 
   <div class="faq-item">
     <h3>What is the Streak Recovery consumable?</h3>
-    <p>If you break your streak, you can restore it with a one-time $0.99 purchase. Pro subscribers receive one free recovery token per month. This is entirely optional — your budget and rollover mechanic work the same regardless.</p>
+    <p>If you break your streak, you can restore it with a one-time $0.99 purchase. <span class="highlight">Pro subscribers</span> receive three free recovery tokens per month, which reset on the 1st of each month. This is entirely optional — your budget and rollover mechanic work the same regardless.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I export my spending data?</h3>
+    <p>Go to Settings → Export Data (<span class="highlight">Pro</span>). Choose a date range — All Time, This Month, Last 3 Months, or a custom range — then tap Export CSV. The file opens in Numbers, Excel, or any spreadsheet app.</p>
   </div>
 
   <div class="faq-item">
     <h3>How do I delete my data?</h3>
-    <p>Delete DayBank from your device to remove all local data. To also remove iCloud data, go to iOS Settings → [Your Name] → iCloud → Manage Storage → DayBank → Delete Data.</p>
+    <p>Go to Settings → Reset All Data inside DayBank. This removes all data from your device and your iCloud account across all devices. Alternatively, delete DayBank from your device and go to iOS Settings → [Your Name] → iCloud → Manage Storage → DayBank → Delete Data.</p>
   </div>
 
   <div class="faq-item">
@@ -170,4 +200,11 @@ h1 { font-size: 28px; }
     <div><em>Spend less. Carry more.</em></div>
     <div style="margin-top:8px">
       <a href="privacy-policy.html">Privacy Policy</a>
-      &nbs
+      &nbsp;·&nbsp;
+      <a href="mailto:daybank@icloud.com">Contact</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
